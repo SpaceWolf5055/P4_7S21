@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">P4_7S21</string>
+    <string name="p1titulo">Mama ya se progrmar en Android :D</string>
+    <string name="p1actbasc">Actividad Basica</string>
+    <string name="p1actparce">Actividad Parceable</string>
+    <string name="p1actrep">Actividad Resultado</string>
+    <string name="p1infnombre">Ingresa aqui tu nombre</string>
+    <string name="p1ingedad">Ingresa aqui tu edad</string>
+    <string name="p1ingcorrep">Ingrese aqui tu correo</string>
+    <string name="p2titulo">Actividad Basica</string>
+    <string name="p2mensaje">Nombre Recibido</string>
+    <string name="p2btnreg">Regresar a la Actividad Principal</string>
+    <string name="p3titulo">Elementos parcelable datos</string>
+    <string name="p3informacion">Datos obtenidos</string>
+    <string name="p3btnregresa">Regresar al Home</string>
+    <string name="p4titulo">Regresa estado de cierre de actividad</string>
+    <string name="p4btnok">Cerrar con exito</string>
+    <string name="p4btncancelar">Cerrado con error</string>
+</resources>

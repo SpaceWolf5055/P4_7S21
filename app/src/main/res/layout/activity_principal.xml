@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="373dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="64dp"
+        android:gravity="bottom|center"
+        android:text="@string/p1titulo"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1btnab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="bottom|center"
+        android:onClick="presionaBoton"
+        android:text="@string/p1actbasc"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/p1btnar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="bottom|center"
+        android:onClick="presionaBoton"
+        android:text="@string/p1actrep"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/p1btnap"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/p1btnap"
+        app:layout_constraintTop_toBottomOf="@+id/p1btnap" />
+
+    <Button
+        android:id="@+id/p1btnap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="bottom|center"
+        android:onClick="presionaBoton"
+        android:text="@string/p1actparce"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/p1btnab"
+        app:layout_constraintTop_toBottomOf="@+id/p1btnab" />
+
+    <EditText
+        android:id="@+id/p1txtnombre"
+        android:layout_width="400dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="107dp"
+        android:autofillHints="nombre"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/p1infnombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1btnap" />
+
+    <EditText
+        android:id="@+id/p1txtedad"
+        android:layout_width="406dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="28dp"
+        android:autofillHints="edad"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/p1ingedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1txtnombre" />
+
+    <EditText
+        android:id="@+id/p1txtcorreo"
+        android:layout_width="404dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints="correo"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/p1ingcorrep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1txtedad" />
+</androidx.constraintlayout.widget.ConstraintLayout>
